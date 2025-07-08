@@ -15,7 +15,9 @@ export default defineConfig({
   // Development server settings
   server: {
     port: 3000,
-    open: true
+    open: true,
+    host: true,
+    cors: true
   },
 
   // Configure path resolution
